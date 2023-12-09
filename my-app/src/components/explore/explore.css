@@ -1,0 +1,42 @@
+/* Explore css */
+.explore_section {
+    padding: 3rem;
+}
+
+.explore_section .card img {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+
+.explore_section .explore_text h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.explore_section .explore_text p {
+    padding: 0 8rem 1rem;
+}
+
+.explore_section .card-body p {
+    font-size: 1.111;
+    font-weight: 400;
+}
+
+.explore_section .card-body span {
+    color: var(--primary-color);
+    font-size: 1.555rem;
+    font-weight: 700;
+}
+
+
+@media (max-width:767px) {
+    .explore_section {
+        padding: 1rem 0;
+    }
+
+    .explore_section .explore_text p {
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+}

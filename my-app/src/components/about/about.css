@@ -1,0 +1,27 @@
+/* About css */
+.about_section {
+    background: var(--black-color);
+    padding: 4rem;
+}
+
+.about_section img {
+    background: white;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: square;
+    color: yellow;
+    font-size: 10px;
+    padding: 1rem;
+}
+
+@media (max-width:767px) {
+    .about_section {
+        padding: 3rem 0;
+    }
+
+    .about_section h2 {
+        font-size: 1.555rem;
+    }
+}
